@@ -108,11 +108,12 @@ img {
 
 /* Section 1 Hero*/
 .hero-section {
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   padding-top: 188px;
   background: #2e2f42;
 }
 .hero-title {
+  max-width: 496px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
@@ -124,6 +125,8 @@ img {
   color: #fff;
 }
 .main-button {
+  min-width: 169px;
+  height: 56px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -135,6 +138,7 @@ img {
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
+  border: none;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -203,10 +207,13 @@ img {
   gap: 24px;
 }
 .team-member {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
 }
-
+.member-card {
+  padding: 32px 0;
+}
 .team-member-title {
   font-weight: 500;
   font-size: 20px;
@@ -214,7 +221,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-member-text {
@@ -266,11 +272,9 @@ img {
 /*Footer*/
 
 .footer-section {
-  background: #2e2f42;
-}
-.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #2e2f42;
 }
 
 .footer-link {
@@ -288,6 +292,7 @@ img {
   color: #f4f4fd;
 }
 .footer-text {
+  max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
